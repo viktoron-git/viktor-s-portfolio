@@ -279,11 +279,11 @@ footer {
     }
 }
 
-#about {
+/* #about {
     display: flex;
     flex-direction: column;
     height: 100vh;
-}
+} */
 .aboutsect {
     display: flex;
     flex-direction: column;
