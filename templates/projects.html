@@ -1,0 +1,53 @@
+{% include "header.html" %}
+
+<main>
+    <div class="project-section">
+        <div>
+            <span class="whoami"> $ ls ./projects --completed </span>
+            <h2> Completed </h2>
+            <div class="cards">
+                <div class="card">
+                    <h4> ProtocolDroid </h4>
+                    <p> A Telegram bot that tracks group links shared in a chat, flags duplicate submissions, and auto-expires old entries based on a custom or Telegram-native timer.</p>
+                    <div>
+                    <span class="tags"> flask </span>
+                    <span class="tags"> postgres </span>
+                    <span class="tags"> python </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4> Viktor's Blog </h4>
+                    <p> A Blog where website where articles are posted occasionally, my first ever blog.</p>
+                    <div>
+                    <span class="tags"> flask </span>
+                    <span class="tags"> postgres </span>
+                    <span class="tags"> python </span>
+                    <span class="tags"> SQLAlchemy </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div>
+
+        </div>
+        <div>
+            <div>
+                <span class="whoami grey-out"> $ ls ./projects --in-progress </span>
+                <h2> Currently Building </h2>
+                <div class="still-building">
+                    <div class="incomplete-card">
+                        <div>
+                        <h4> Multipage shopping website </h4>
+                        <span> in progress </span>
+                        </div>
+                        <p> Sign up, checkout form, payment integration </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+{% include "footer.html" %}

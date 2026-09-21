@@ -1,0 +1,30 @@
+{% include "header.html" %}
+
+<main>
+  <div id="hero-section">
+    <div>
+      <span class="whoami"> $ whoami </span>
+<!--      <span> - i write python that does things so I don't have to. </span>-->
+    </div>
+    <div class="hero-text">
+      <h1> Viktor - Python developer & Data analyst. </h1>
+      <p>i do backend and frontend development, browser automations with Flask + Python and building telegram bots. </p>
+    </div>
+    <div class="view-project">
+      <a href=" {{ url_for('my_projects') }}"> ./view-projects </a>
+    </div>
+  </div>
+
+  <div class="my-projects">
+    <div>
+      <div class="project">
+        <a href="#"> <div> <h4>ProtocolDriod </h4> telegram_bot/postgres </div></a>
+      </div>
+       <div class="project">
+        <a href="#"> <div> <h4>Viktor's Blog </h4> website </div></a>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include "footer.html" %}

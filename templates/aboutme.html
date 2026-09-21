@@ -1,0 +1,28 @@
+{% include "header.html" %}
+
+<div id="about">
+    <div class="aboutsect">
+        <div>
+            <h1> About Me </h1>
+        </div>
+        <div class="aboutme">
+            <div>
+                <p> Hey, I'm Viktor. I'm a Python developer in the middle of a coding
+                bootcamp, building things that are less "portfolio filler"
+                and more "solves an actual annoyance" - like ProtocolDroid,
+                a Telegram bot that catches duplicate link spam in a group chat.
+                I work mostly in Flask on the backend and dabble in browser automation with Selenium when a task is repetitive enough to hand off to a script. Still learning, still debugging, still figuring out flexbox - but shipping along the way.</p>
+                <a href="{{url_for('static', filename='files/my_cv.pdf')}}" target="_blank"> download CV </a>
+            </div>
+            <div class="pfp">
+                <img src="{{ url_for('static', filename='assets/img/photo_2026-09-19_09-10-57.jpg')}}" alt="my picture">
+<!--                <div class="overlay"></div>-->
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+{% include "footer.html" %}
